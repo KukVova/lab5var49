@@ -1,9 +1,6 @@
 #Завдання 1. Перевірка записів і пошук за кодом
 #перевірка умов завдання
 def value_record(line, existing_codes, record_num):
-    """
-
-    """
     parts = line.strip().split(';')
     if len(parts) != 4:#якщо частин вводу менше чим 4 то запис теж відхиляється
         return f"Запис {record_num}: відхилено (недопустимі значення)"
