@@ -57,7 +57,7 @@ def main():
     sorted_merge = merge_sort(records)
     merge_codes = [r['code'] for r in sorted_merge]
 
-    #Друк кодів після сортувань
+    #Друк після сортувань
     print("Вставками:", ", ".join(map(str, ins_codes)) if ins_codes else "немає")
     print("Злиттям:", ", ".join(map(str, merge_codes)) if merge_codes else "немає")
 
