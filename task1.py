@@ -2,7 +2,6 @@
 #Завдання 1. Перевірка записів і пошук за кодом
 from calculations3 import value_record,linear_search,binary_search
 
-
 def main():
     # n рядків код;назва;значення;кількість
     while True:
