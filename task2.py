@@ -81,7 +81,7 @@ def main():
     selected = [r for r in sorted_merge if report_matches(r, limit)]
 
     print(f"Записи з показником більше {limit}:")
-    # ця функція фільтрує відсортований список
+    #фільтрує відсортований список
     if selected:
         sum_indicators = 0
         for r in selected:
